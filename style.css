@@ -1,0 +1,16 @@
+#Heading{
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+hr{
+    width: 500px;
+}
+canvas{
+    border: 5px dashed gray;
+    margin-top: 300px;
+}
+body{
+    background-size: cover;
+}

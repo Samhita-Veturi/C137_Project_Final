@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="icons8-detective-64.png" type="image/png" /><title>AI Object Finder</title>
+    </head>
+    <body background="Wallpaper.jpg">
+        <h1 class="btn-secondary" id="Heading"> AI Object Finder
+            <hr>
+        </h1>
+        <br><br><br>
+        <div class="form-group" style="margin-left: 15px;">
+            <h4 for="usr"><kbd>What do you want to detect?</kbd></h4>
+            <br>
+            <span><input placeholder="Type Here...." type="text" class="form-control" id="User" style="width: 70%;"></span>
+            <br><button type="submit" class="btn btn-light" onclick="Start();">Start</button>
+            <br><br>
+            <h4 class="btn btn-primary" style="text-align: center;" id="Status"> Model Status: </h4>
+        </div>
+    </body>
+    <script src="main.js"></script>
+</html>
